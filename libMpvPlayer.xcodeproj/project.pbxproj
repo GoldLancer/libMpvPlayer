@@ -281,7 +281,7 @@
 		962370ED2479A2EF0002C75C /* libmpvplayer */ = {
 			isa = PBXGroup;
 			children = (
-				9623723C2479AA720002C75C /* Libraries */,
+				9623723C2479AA720002C75C /* libraries */,
 				962370EE2479A2EF0002C75C /* libMpvPlayer.h */,
 				9623734E2479C2DF0002C75C /* client.h */,
 				9623734F2479C2DF0002C75C /* opengl_cb.h */,
@@ -309,13 +309,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9623723C2479AA720002C75C /* Libraries */ = {
+		9623723C2479AA720002C75C /* libraries */ = {
 			isa = PBXGroup;
 			children = (
 				9623723D2479AA720002C75C /* ios-arm64 */,
 				962372CC2479AA720002C75C /* libmpv */,
 			);
-			path = Libraries;
+			name = libraries;
+			path = ../libMpvPlayer/libraries;
 			sourceTree = "<group>";
 		};
 		9623723D2479AA720002C75C /* ios-arm64 */ = {

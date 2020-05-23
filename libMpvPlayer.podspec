@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.framework    = 'UIKit, AVFoundation, Accelerate, CoreMotion, VideoToolbox, GameController'
   spec.source_files = 'libMpvPlayer/*.{h,m}'
-  spec.libraries = 'libMpvPlayer/Libraries/libmpv/lib/*.a', 'libMpvPlayer/Libraries/ios-arm64/**/lib/*.a' 
+  spec.libraries = 'libMpvPlayer/Libraries/libmpv/lib/*.*'
   spec.cocoapods_version = '>= 1.4.0'
 
 end
