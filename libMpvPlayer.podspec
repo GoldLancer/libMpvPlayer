@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/GoldLancer/libMpvPlayer'
   spec.license      = 'MIT'
   spec.author       = { 'Anton Yagov' => 'goldlancer109@outlook.com' }
-  spec.platform     = :ios
+  spec.platform     = :ios, '13.0'
   spec.ios.deployment_target = '9.0'
   spec.source       = { :git => 'https://github.com/GoldLancer/libMpvPlayer.git', :tag => 'master' }
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
