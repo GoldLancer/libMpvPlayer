@@ -590,7 +590,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/libmpvplayer/libraries",
 				);
-				OTHER_LIBTOOLFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "-ObjC $(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goldlancer.libMpvPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -619,7 +619,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/libmpvplayer/libraries",
 				);
-				OTHER_LIBTOOLFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "-ObjC $(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goldlancer.libMpvPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
