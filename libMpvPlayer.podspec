@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   s.ios.deployment_target = '13.0'
   s.requires_arc = true
   s.framework    = 'UIKit'
-  s.source_files = 'Sources/*.{swift,h,m}'
+  s.source_files = 'libMpvPlayer/*.{h,m}'
   s.cocoapods_version = '>= 1.4.0'
 
 end
