@@ -9,12 +9,12 @@ Pod::Spec.new do |spec|
   spec.license      = 'MIT'
   spec.author       = { 'Anton Yagov' => 'goldlancer109@outlook.com' }
   spec.platform     = :ios
-  spec.source       = { :git => 'https://github.com/GoldLancer/libMpvPlayer.git', :tag => 'v1.0' }
+  spec.source       = { :git => 'https://github.com/GoldLancer/libMpvPlayer.git', :tag => 'master' }
 
 
   spec.requires_arc = true
   spec.framework    = 'UIKit'
-  spec.source_files = 'libMpvPlayer/*.{h,m}'
+  spec.source_files = 'libMpvPlayer/*.{h,m}, libMpvPlayer/Libraries/libmpv/include/*.h'
   spec.cocoapods_version = '>= 1.4.0'
 
 end

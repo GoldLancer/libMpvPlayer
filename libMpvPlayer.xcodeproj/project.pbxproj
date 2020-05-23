@@ -77,14 +77,6 @@
 		962373172479AA720002C75C /* libwavpack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 962372C52479AA720002C75C /* libwavpack.a */; };
 		962373182479AA720002C75C /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 962372C82479AA720002C75C /* libx264.a */; };
 		962373192479AA720002C75C /* libxvidcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 962372CB2479AA720002C75C /* libxvidcore.a */; };
-		9623731A2479AA720002C75C /* client.h in Headers */ = {isa = PBXBuildFile; fileRef = 962372CE2479AA720002C75C /* client.h */; };
-		9623731B2479AA720002C75C /* mpv.def in Resources */ = {isa = PBXBuildFile; fileRef = 962372CF2479AA720002C75C /* mpv.def */; };
-		9623731C2479AA720002C75C /* mpv.pc.in in Resources */ = {isa = PBXBuildFile; fileRef = 962372D02479AA720002C75C /* mpv.pc.in */; };
-		9623731D2479AA720002C75C /* opengl_cb.h in Headers */ = {isa = PBXBuildFile; fileRef = 962372D12479AA720002C75C /* opengl_cb.h */; };
-		9623731E2479AA720002C75C /* qthelper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 962372D22479AA720002C75C /* qthelper.hpp */; };
-		9623731F2479AA720002C75C /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = 962372D32479AA720002C75C /* render.h */; };
-		962373202479AA720002C75C /* render_gl.h in Headers */ = {isa = PBXBuildFile; fileRef = 962372D42479AA720002C75C /* render_gl.h */; };
-		962373212479AA720002C75C /* stream_cb.h in Headers */ = {isa = PBXBuildFile; fileRef = 962372D52479AA720002C75C /* stream_cb.h */; };
 		962373222479AA720002C75C /* libass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 962372D72479AA720002C75C /* libass.a */; };
 		962373232479AA720002C75C /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 962372D82479AA720002C75C /* libfreetype.a */; };
 		962373242479AA720002C75C /* libfribidi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 962372D92479AA720002C75C /* libfribidi.a */; };
@@ -92,6 +84,8 @@
 		962373262479AA720002C75C /* libmpv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 962372DB2479AA720002C75C /* libmpv.a */; };
 		962373272479AA720002C75C /* libuchardet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 962372DC2479AA720002C75C /* libuchardet.a */; };
 		962373412479AD650002C75C /* libMpvPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962370EB2479A2EF0002C75C /* libMpvPlayer.framework */; };
+		962373502479C2DF0002C75C /* client.h in Headers */ = {isa = PBXBuildFile; fileRef = 9623734E2479C2DF0002C75C /* client.h */; };
+		962373512479C2DF0002C75C /* opengl_cb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9623734F2479C2DF0002C75C /* opengl_cb.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -173,20 +167,14 @@
 		962372C52479AA720002C75C /* libwavpack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwavpack.a; sourceTree = "<group>"; };
 		962372C82479AA720002C75C /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
 		962372CB2479AA720002C75C /* libxvidcore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libxvidcore.a; sourceTree = "<group>"; };
-		962372CE2479AA720002C75C /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
-		962372CF2479AA720002C75C /* mpv.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mpv.def; sourceTree = "<group>"; };
-		962372D02479AA720002C75C /* mpv.pc.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mpv.pc.in; sourceTree = "<group>"; };
-		962372D12479AA720002C75C /* opengl_cb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opengl_cb.h; sourceTree = "<group>"; };
-		962372D22479AA720002C75C /* qthelper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = qthelper.hpp; sourceTree = "<group>"; };
-		962372D32479AA720002C75C /* render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = render.h; sourceTree = "<group>"; };
-		962372D42479AA720002C75C /* render_gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = render_gl.h; sourceTree = "<group>"; };
-		962372D52479AA720002C75C /* stream_cb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream_cb.h; sourceTree = "<group>"; };
 		962372D72479AA720002C75C /* libass.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libass.a; sourceTree = "<group>"; };
 		962372D82479AA720002C75C /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfreetype.a; sourceTree = "<group>"; };
 		962372D92479AA720002C75C /* libfribidi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfribidi.a; sourceTree = "<group>"; };
 		962372DA2479AA720002C75C /* libharfbuzz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libharfbuzz.a; sourceTree = "<group>"; };
 		962372DB2479AA720002C75C /* libmpv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmpv.a; sourceTree = "<group>"; };
 		962372DC2479AA720002C75C /* libuchardet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libuchardet.a; sourceTree = "<group>"; };
+		9623734E2479C2DF0002C75C /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		9623734F2479C2DF0002C75C /* opengl_cb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opengl_cb.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,6 +283,8 @@
 			children = (
 				9623723C2479AA720002C75C /* Libraries */,
 				962370EE2479A2EF0002C75C /* libMpvPlayer.h */,
+				9623734E2479C2DF0002C75C /* client.h */,
+				9623734F2479C2DF0002C75C /* opengl_cb.h */,
 				962370EF2479A2EF0002C75C /* Info.plist */,
 			);
 			path = libMpvPlayer;
@@ -1047,25 +1037,9 @@
 		962372CC2479AA720002C75C /* libmpv */ = {
 			isa = PBXGroup;
 			children = (
-				962372CD2479AA720002C75C /* include */,
 				962372D62479AA720002C75C /* lib */,
 			);
 			path = libmpv;
-			sourceTree = "<group>";
-		};
-		962372CD2479AA720002C75C /* include */ = {
-			isa = PBXGroup;
-			children = (
-				962372CE2479AA720002C75C /* client.h */,
-				962372CF2479AA720002C75C /* mpv.def */,
-				962372D02479AA720002C75C /* mpv.pc.in */,
-				962372D12479AA720002C75C /* opengl_cb.h */,
-				962372D22479AA720002C75C /* qthelper.hpp */,
-				962372D32479AA720002C75C /* render.h */,
-				962372D42479AA720002C75C /* render_gl.h */,
-				962372D52479AA720002C75C /* stream_cb.h */,
-			);
-			path = include;
 			sourceTree = "<group>";
 		};
 		962372D62479AA720002C75C /* lib */ = {
@@ -1088,13 +1062,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9623731A2479AA720002C75C /* client.h in Headers */,
-				962373212479AA720002C75C /* stream_cb.h in Headers */,
+				962373502479C2DF0002C75C /* client.h in Headers */,
 				962370F02479A2EF0002C75C /* libMpvPlayer.h in Headers */,
-				962373202479AA720002C75C /* render_gl.h in Headers */,
-				9623731F2479AA720002C75C /* render.h in Headers */,
-				9623731E2479AA720002C75C /* qthelper.hpp in Headers */,
-				9623731D2479AA720002C75C /* opengl_cb.h in Headers */,
+				962373512479C2DF0002C75C /* opengl_cb.h in Headers */,
 				962371E82479A4EF0002C75C /* MpvClientOGLView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1157,11 +1127,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9623731C2479AA720002C75C /* mpv.pc.in in Resources */,
 				962373122479AA720002C75C /* README in Resources */,
 				962373102479AA720002C75C /* LICENCE in Resources */,
 				962373112479AA720002C75C /* NEWS in Resources */,
-				9623731B2479AA720002C75C /* mpv.def in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
