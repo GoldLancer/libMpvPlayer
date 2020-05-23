@@ -79,7 +79,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/GoldLancer/libMpvPlayer.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/GoldLancer/libMpvPlayer.git", :branch => "master",
+                   :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
