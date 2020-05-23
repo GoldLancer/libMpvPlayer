@@ -73,6 +73,7 @@
         glGetIntegerv(GL_FRAMEBUFFER_BINDING, &defaultFBO);
     }
 
+    /*
     if (self.mpvGL)
     {
         mpv_opengl_cb_draw(self.mpvGL,
@@ -80,6 +81,7 @@
                            self.bounds.size.width * self.contentScaleFactor,
                            -self.bounds.size.height * self.contentScaleFactor);
     }
+     */
 }
 
 - (void)drawRect:(CGRect)rect

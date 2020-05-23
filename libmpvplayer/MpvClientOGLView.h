@@ -16,7 +16,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MpvClientOGLView : GLKView
-    @property mpv_opengl_cb_context *mpvGL;
+//    @property mpv_opengl_cb_context *mpvGL;
 @end
 
 NS_ASSUME_NONNULL_END
