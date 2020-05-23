@@ -264,7 +264,7 @@
 			children = (
 				962371E62479A4EF0002C75C /* MpvClientOGLView.h */,
 				962371E72479A4EF0002C75C /* MpvClientOGLView.m */,
-				962370ED2479A2EF0002C75C /* libMpvPlayer */,
+				962370ED2479A2EF0002C75C /* libmpvplayer */,
 				962370EC2479A2EF0002C75C /* Products */,
 				962371EA2479A6470002C75C /* Frameworks */,
 			);
@@ -278,7 +278,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		962370ED2479A2EF0002C75C /* libMpvPlayer */ = {
+		962370ED2479A2EF0002C75C /* libmpvplayer */ = {
 			isa = PBXGroup;
 			children = (
 				9623723C2479AA720002C75C /* Libraries */,
@@ -287,7 +287,7 @@
 				9623734F2479C2DF0002C75C /* opengl_cb.h */,
 				962370EF2479A2EF0002C75C /* Info.plist */,
 			);
-			path = libMpvPlayer;
+			path = libmpvplayer;
 			sourceTree = "<group>";
 		};
 		962371EA2479A6470002C75C /* Frameworks */ = {
