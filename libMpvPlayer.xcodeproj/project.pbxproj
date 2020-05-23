@@ -572,6 +572,10 @@
 		962370F42479A2EF0002C75C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					x86_64,
+					"$(ARCHS_STANDARD)",
+				);
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6ULV8VJGJ9;
@@ -601,6 +605,10 @@
 		962370F52479A2EF0002C75C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					x86_64,
+					"$(ARCHS_STANDARD)",
+				);
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6ULV8VJGJ9;
