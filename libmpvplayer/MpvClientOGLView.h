@@ -9,7 +9,7 @@
 @import GLKit;
 @import OpenGLES;
 
-#import "opengl_cb.h"
+//#import "opengl_cb.h"
 
 #import <UIKit/UIKit.h>
 
