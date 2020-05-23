@@ -16,7 +16,10 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true  
   spec.source_files = 'libMpvPlayer/*.{h,m}'
   spec.libraries    = 'c++', 'c', 'c++abi', 'iconv', 'bz2', 'z'
-  spec.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"${PROJECT_DIR}/.."/**' }
+  spec.xcconfig = { 
+                      'LIBRARY_SEARCH_PATHS' => '"${PROJECT_DIR}/.."/**',
+                      'OTHER_LDFLAGS[arch=arm64]'  => other_ldflags
+                   }
   spec.cocoapods_version = '>= 1.4.0'
 
 end
