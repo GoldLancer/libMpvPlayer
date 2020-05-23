@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 
   spec.requires_arc = true
-  spec.framework    = 'UIKit, AVFoundation, Accelerate, CoreMotion, VideoToolbox, GameController'
+  
   spec.source_files = 'libMpvPlayer/*.{h,m}'
   
   spec.cocoapods_version = '>= 1.4.0'
