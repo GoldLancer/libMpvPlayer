@@ -9,13 +9,14 @@ Pod::Spec.new do |spec|
   spec.license      = 'MIT'
   spec.author       = { 'Anton Yagov' => 'goldlancer109@outlook.com' }
   spec.platform     = :ios
+  spec.ios.deployment_target = '9.0'
   spec.source       = { :git => 'https://github.com/GoldLancer/libMpvPlayer.git', :tag => 'master' }
-
+  spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 
   spec.requires_arc = true
   spec.framework    = 'UIKit, AVFoundation, Accelerate, CoreMotion, VideoToolbox, GameController'
   spec.source_files = 'libMpvPlayer/*.{h,m}'
-  spec.libraries = 'libMpvPlayer/Libraries/libmpv/lib/*.*'
+  
   spec.cocoapods_version = '>= 1.4.0'
 
 end
